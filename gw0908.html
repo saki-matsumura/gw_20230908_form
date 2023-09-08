@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>問い合わせフォーム</title>
+    <!-- normalize.cssの読込 -->
+    <link rel="stylesheet" href="./normalize.css">
+    <!-- 自身で作成したCSSファイルの読込 -->
+    <link rel="stylesheet" href="./gw0908.css">
+  </head>
+  <body>
+    <div class="contents">
+      <img src="./image.png">
+      <h2>お問い合わせ内容</h2>
+      <!-- 名前、連絡先、 -->
+      <form action="">
+        <table class="contact">
+          <tr>
+            <th>お問い合わせの種類</th>
+            <td>
+              <label><input type="radio" name="syurui" class="radio-botton"/>商品や販売についてのお問い合わせ</label>
+              <label><input type="radio" name="syurui" class="radio-botton">その他のお問い合わせ</label>
+            </td>
+          </tr>
+          <tr>
+            <th>件名</th>
+            <td>
+              <input type="text" class = "text-box">
+            </td>
+          </tr>
+          <tr>
+            <th>お名前</th>
+            <td>
+                <input type="text" class = "text-box">
+            </td>
+          </tr>
+          <tr>
+            <th>e-mail</th>
+            <td>
+                <input type="email" class = "text-box">
+            </td>
+          </tr>
+          <tr>
+            <th>お問い合わせ内容</th>
+            <td>
+              <textarea type="text" class = "text-box"></textarea>
+              <ul>
+                <li>販売店のお問い合わせの場合は、必ずご購入希望地域（例：○○市○○町）及び商品名、内容量をご記入ください。</li>
+                <li>商品の不具合についてのお問い合わせは、正確にお調べさせていただくため、当該品及び容器をお取り置きの上、ご連絡ください。</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </form>
+      
+    </div>
+  </body>
+</html>

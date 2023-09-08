@@ -1,0 +1,36 @@
+.contents{
+    width: 680px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h2{
+    color: red;
+}
+
+.contact {
+    border-collapse: collapse;
+    
+}
+
+.contact tr {
+    height: 3rem;
+    border: solid 1px #AAAAAA;
+}
+
+.contact th {
+    width: 150px;
+    text-align: left;
+    background-color: #F2F2F2;
+    color: #1b1b1b;
+    border-right: solid 1px #AAAAAA;
+    padding: 20px;
+}
+.contact td {
+    padding: 20px;
+}
+.text-box{
+    width: 480px;
+}
+img{
+    height: 60px;
+}
