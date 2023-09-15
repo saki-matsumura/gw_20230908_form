@@ -27,10 +27,79 @@ h2{
 }
 .contact td {
     padding: 20px;
+    text-align: left;
 }
 .text-box{
     width: 480px;
 }
 img{
     height: 60px;
+}
+.send{
+    display: inline-block;
+}
+.send a{
+    display: block;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    margin-top: 30px;
+    
+}
+.send a:hover{
+    background-color: rgb(255, 172, 172);
+    color: white;
+
+    /* border-width: thin; */
+
+
+}
+.input {
+    text-align: center;
+    /* display: none;  */
+}
+#kobayashi{
+    position: absolute;
+    left: 0;
+    margin-top: 100px;
+    margin-left: 180px;
+    width: 350px;
+    height: auto;
+    
+}
+.comment{
+    position: absolute;
+    /* position: relative; */
+    margin-left: 148px;
+  display: inline-block;
+  /* margin: 1.5em 0; */
+  padding: 30px 50px;
+  min-width: 120px;
+  max-width: 100%;
+  color: white;
+  font-size: 16px;
+  background: red;
+  /* border-color: red; */
+  /* border-width:medium; */
+  border-radius: 15px;
+
+}
+.comment:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid red;
+  }
+
+.comment p {
+    margin: 0;
+    padding: 0;
+  }
+
+.pop{
+    display: none; /* 標準が非表示 */
 }
